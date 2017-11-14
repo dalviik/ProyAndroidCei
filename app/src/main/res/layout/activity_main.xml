@@ -10,6 +10,20 @@
     android:orientation="vertical"
     tools:context="com.android.cintro.dalviik.proyandroidcei.MainActivity">
 
+    <Button
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_email"
+        android:gravity="center"
+        android:drawableTint="#fff"
+        android:onClick="enviarCorreo"
+        android:text="Enviar Correo" />
+
     <ScrollView
         android:layout_width="match_parent"
 
@@ -23,9 +37,9 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_marginTop="32dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
                 android:text="@string/comida"
                 android:textAllCaps="true"
                 android:textColor="#ffffff"
@@ -37,10 +51,10 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:layout_marginTop="0dp"
                 android:layout_width="210dp"
                 android:layout_height="210dp"
                 android:layout_margin="0dp"
+                android:layout_marginTop="0dp"
                 android:src="@drawable/hamburguesa" />
 
             <Button
@@ -59,12 +73,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
                 android:text="@string/gaseosas"
-                android:textColor="#ffffff"
                 android:textAllCaps="true"
+                android:textColor="#ffffff"
                 android:textSize="32sp"
                 android:textStyle="bold"
-                android:layout_marginTop="32dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -88,4 +102,6 @@
                 android:textSize="24sp" />
         </LinearLayout>
     </ScrollView>
+
+
 </LinearLayout>

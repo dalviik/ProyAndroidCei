@@ -25,10 +25,17 @@ public class ComidaActivity extends AppCompatActivity {
         comidaRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         ArrayList<Comida> datos = new ArrayList<Comida>();
-        Comida c1 = new Comida("Hamburguesa con queso", 25);
-        Comida c2 = new Comida("Hamburguesa Doble", 28);
+        Comida c1 = new Comida("Hamburguesa Simple", 12);
         datos.add(c1);
-        datos.add(c2);
+        c1 = new Comida("Hamburguesa Con Doble", 18);
+        datos.add(c1);
+        c1 = new Comida("Hamburguesa Con Queso", 18);
+        datos.add(c1);
+        c1 = new Comida("Hamburguesa Con Jamon y Queso", 25);
+        datos.add(c1);
+        c1 = new Comida("Hamburguesa Doble Con Jamon y Queso", 29);
+        datos.add(c1);
+
 
         ComidaAdapter adaptador = new ComidaAdapter();
         adaptador.colocarDatos(datos);
