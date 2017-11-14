@@ -26,10 +26,19 @@ public class BebidasActivity extends AppCompatActivity {
         bebidasRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         ArrayList<Bebida> datos = new ArrayList<Bebida>();
-        Bebida b1 = new Bebida("Coca Cola", "Botella 2 Litros", 25);
-        Bebida b2 = new Bebida("Pepsi", "Botella 1 litro", 28);
+
+        Bebida b1 = new Bebida("Coca Cola", "Botella 2 Litros", 13);
         datos.add(b1);
-        datos.add(b2);
+        b1 = new Bebida("Pepsi", "Botella 1 Litro", 8);
+        datos.add(b1);
+        b1 = new Bebida("Fanta", "Botella 2 Litros", 13);
+        datos.add(b1);
+        b1 = new Bebida("Sprite", "Botella Personal", 2);
+        datos.add(b1);
+        b1 = new Bebida("Coca Cola Light", "Botella 2 Litros", 13);
+        datos.add(b1);
+
+
 
         BebidaAdapter adaptador = new BebidaAdapter();
         adaptador.colocarDatos(datos);

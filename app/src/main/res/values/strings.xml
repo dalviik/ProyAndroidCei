@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Proy Android Cei</string>
+    <string name="app_name">Menu de Comidas</string>
     <string name="comida">Comida</string>
+    <string name="ir_a_bebidas_button">Ir a Bebidas</string>
+    <string name="ir_a_comidas_button">Ir a comidas</string>
+    <string name="gaseosas">Gaseosas</string>
 </resources>

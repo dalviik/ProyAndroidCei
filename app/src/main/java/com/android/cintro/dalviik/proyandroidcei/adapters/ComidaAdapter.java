@@ -32,7 +32,7 @@ public class ComidaAdapter extends RecyclerView.Adapter<ComidaAdapter.ViewHolder
     public void onBindViewHolder(ViewHolder holder, int position) {
         Comida c = datos.get(position);
         holder.nombreTextView.setText(""+c.getNombre());
-        holder.precioTextView.setText(""+c.getPrecio());
+        holder.precioTextView.setText("Precio: "+c.getPrecio()+" Bs.");
 
 
     }

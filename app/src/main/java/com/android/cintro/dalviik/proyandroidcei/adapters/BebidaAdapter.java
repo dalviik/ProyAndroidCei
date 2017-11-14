@@ -30,9 +30,9 @@ public class BebidaAdapter extends RecyclerView.Adapter<BebidaAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Bebida b = datos.get(position);
-        holder.marcaBebidaTextView.setText("" + b.getMarca());
-        holder.cantidadBebidaTextView.setText("" + b.getCantidad());
-        holder.precioBebidaTextView.setText("" + b.getPrecio());
+        holder.marcaBebidaTextView.setText("Marca: " + b.getMarca());
+        holder.cantidadBebidaTextView.setText("Detalle: " + b.getCantidad());
+        holder.precioBebidaTextView.setText("Precio: " + b.getPrecio()+" Bs.");
 
 
     }

@@ -27,7 +27,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/comida"
-                android:textColor="#fff"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
                 android:textSize="32sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -49,7 +50,7 @@
                 android:layout_marginTop="-12dp"
                 android:onClick="irAComidas"
                 android:padding="18dp"
-                android:text="Ir a comidas"
+                android:text="@string/ir_a_comidas_button"
                 android:textColor="#fff"
                 android:textSize="24sp"
 
@@ -58,8 +59,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gaseosa"
-                android:textColor="#fff"
+                android:text="@string/gaseosas"
+                android:textColor="#ffffff"
+                android:textAllCaps="true"
                 android:textSize="32sp"
                 android:textStyle="bold"
                 android:layout_marginTop="32dp"
@@ -81,7 +83,7 @@
                 android:layout_marginBottom="24dp"
                 android:onClick="irABebidas"
                 android:padding="24dp"
-                android:text="Ir a Bebidas"
+                android:text="@string/ir_a_bebidas_button"
                 android:textColor="#fff"
                 android:textSize="24sp" />
         </LinearLayout>
