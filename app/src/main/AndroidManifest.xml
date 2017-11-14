@@ -16,8 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ComidaActivity" />
-        <activity android:name=".BebidasActivity"></activity>
+        <activity
+            android:name=".ComidaActivity"
+            android:label="Comidas"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BebidasActivity"
+            android:label="Bebidas"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

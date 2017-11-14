@@ -1,9 +1,5 @@
 package com.android.cintro.dalviik.proyandroidcei.model;
 
-/**
- * Created by dxr on 13-11-17.
- */
-
 public class Bebida {
 
     private String marca;
