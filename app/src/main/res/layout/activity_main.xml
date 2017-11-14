@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
-                android:onClick=""
+                android:onClick="irABebidas"
                 android:padding="24dp"
                 android:text="Ir a Bebidas"
                 android:textColor="#fff"

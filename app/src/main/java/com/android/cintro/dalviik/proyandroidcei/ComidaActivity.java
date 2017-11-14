@@ -26,7 +26,9 @@ public class ComidaActivity extends AppCompatActivity {
 
         ArrayList<Comida> datos = new ArrayList<Comida>();
         Comida c1 = new Comida("Hamburguesa con queso", 25);
+        Comida c2 = new Comida("Hamburguesa Doble", 28);
         datos.add(c1);
+        datos.add(c2);
 
         ComidaAdapter adaptador = new ComidaAdapter();
         adaptador.colocarDatos(datos);
