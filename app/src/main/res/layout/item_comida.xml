@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="#a8139b9f"
+    android:layout_margin="12dp"
+    android:padding="8dp"
+    >
+
+
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/hamburguesa"
+        android:layout_margin="8dp"
+        />
+
+    <LinearLayout
+        android:layout_margin="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hamburguesa"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/precioTextView"
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="precio"/>
+    </LinearLayout>
+
+
+</LinearLayout>
